@@ -1,0 +1,139 @@
+
+*,::after,*::before{
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+    margin: 24px 0px;
+}
+
+.hero__wrapp {
+    margin-left: 32px;
+}
+
+.hero__one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.hero__tow {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.hero__list {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    margin-left: 222px;
+}
+
+h1,h2,h3 {
+    margin: 0px;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.hero__list-item{
+   border-radius: 3px;
+   font-size: 13px;
+   margin: 0px 16px;
+  
+   border-radius: 4px;
+   
+        background-color:rgb(54 139 139 / 5%);;
+    padding: 5px;
+    color: #5CA5A5;
+}
+.pohotosnap{
+    
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #5CA5A5;
+    }
+    
+    
+    .new{
+       background: #5CA5A5;
+    border-radius: 12px; 
+    color: #F2F2F2;
+    font-size: 12px;
+    padding: 6px;
+    }
+    .featured{
+        font-size: 12px;
+    padding: 6px;
+        background: #2B3939;
+        border-radius: 12px;
+        color: #F2F2F2;  
+    }
+    .hero__item{
+        margin: 0 16px 0 0px;
+    }
+    .hero__title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B3939;
+    }
+    .hero__text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.115385px;
+    color: #7C8F8F;
+    margin: 0px 18px 0px 0px;
+    }
+    .hero__list-item{
+        padding: 6px 8px;
+    }
+
+
+@media only screen and (max-width:600px){
+
+    .container {
+        width: 100%;
+        max-width: 355px;
+        
+    }
+    .hero__img {
+        display: none;
+    }
+    .hero{
+        padding: 32px 0px 100px 0px;
+    }
+    
+    .hero__list{
+        width: 250px;
+        flex-wrap: wrap;
+        margin-top: 250px;
+        margin-left: -245px;
+    }
+}
